@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 3.22)
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
+
+# 1. Enable C++ Standard (Required for your templates)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS ON)
+
 # STM32CubeMX generated symbols (macros)
 set(MX_Defines_Syms 
 	USE_HAL_DRIVER 
@@ -72,13 +78,6 @@ add_library(STM32_Drivers OBJECT)
 target_sources(STM32_Drivers PRIVATE ${STM32_Drivers_Src})
 target_link_libraries(STM32_Drivers PUBLIC stm32cubemx)
 
-
-# Add STM32CubeMX generated application sources to the project
-target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${MX_Application_Src})
-
-# Link directories setup
-target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE ${MX_LINK_DIRS})
-
 # Add libraries to the project
 target_link_libraries(${CMAKE_PROJECT_NAME} ${MX_LINK_LIBS})
 
@@ -89,3 +88,18 @@ set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES ${
 if((CMAKE_C_STANDARD EQUAL 90) OR (CMAKE_C_STANDARD EQUAL 99))
     message(ERROR "Generated code requires C11 or higher")
 endif()
+
+# 2. Add your custom include paths
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    ../../Core/Inc
+    ../../Core/myCode    # Your hydrolib headers live here
+)
+
+# 3. Add your custom source files
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    ../../Core/Src/main.cpp
+   # ../../Core/Src/myMain.cpp # Your C++ entry point
+  
+     # Add any other .c files from myCode if they exist
+    # Add any other .cpp files from myCode if they exist
+)

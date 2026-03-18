@@ -6,5 +6,5 @@ C_DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
 
 C_INCLUDES = -I/workspaces/Pressure_Sensor_Processing/cmake/stm32cubemx/../../Core/Inc -I/workspaces/Pressure_Sensor_Processing/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/workspaces/Pressure_Sensor_Processing/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/workspaces/Pressure_Sensor_Processing/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/workspaces/Pressure_Sensor_Processing/cmake/stm32cubemx/../../Drivers/CMSIS/Include
 
-C_FLAGS =  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11
+C_FLAGS =  -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3
 

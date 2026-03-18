@@ -1,0 +1,21 @@
+CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/sysmem.c.obj: \
+ /workspaces/Pressure_Sensor_Processing/Core/Src/sysmem.c \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/errno.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/errno.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/reent.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/_ansi.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/newlib.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/_newlib_version.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/config.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/machine/ieeefp.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/features.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/cdefs.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/machine/_default_types.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/_types.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/machine/_types.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/lock.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/stdint.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/_intsup.h \
+ /opt/xpack-arm-none-eabi-gcc-14.2.1-1.1/arm-none-eabi/include/sys/_stdint.h

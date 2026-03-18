@@ -142,133 +142,29 @@ STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
-Core/Src/main.obj: Core/Src/main.c.obj
+Core/Src/main.obj: Core/Src/main.cpp.obj
 .PHONY : Core/Src/main.obj
 
 # target to build an object file
-Core/Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.c.obj
-.PHONY : Core/Src/main.c.obj
+Core/Src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.cpp.obj
+.PHONY : Core/Src/main.cpp.obj
 
-Core/Src/main.i: Core/Src/main.c.i
+Core/Src/main.i: Core/Src/main.cpp.i
 .PHONY : Core/Src/main.i
 
 # target to preprocess a source file
-Core/Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.c.i
-.PHONY : Core/Src/main.c.i
+Core/Src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.cpp.i
+.PHONY : Core/Src/main.cpp.i
 
-Core/Src/main.s: Core/Src/main.c.s
+Core/Src/main.s: Core/Src/main.cpp.s
 .PHONY : Core/Src/main.s
 
 # target to generate assembly for a file
-Core/Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.c.s
-.PHONY : Core/Src/main.c.s
-
-Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
-.PHONY : Core/Src/stm32f1xx_hal_msp.obj
-
-# target to build an object file
-Core/Src/stm32f1xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.obj
-
-Core/Src/stm32f1xx_hal_msp.i: Core/Src/stm32f1xx_hal_msp.c.i
-.PHONY : Core/Src/stm32f1xx_hal_msp.i
-
-# target to preprocess a source file
-Core/Src/stm32f1xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_hal_msp.c.i
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.i
-
-Core/Src/stm32f1xx_hal_msp.s: Core/Src/stm32f1xx_hal_msp.c.s
-.PHONY : Core/Src/stm32f1xx_hal_msp.s
-
-# target to generate assembly for a file
-Core/Src/stm32f1xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_hal_msp.c.s
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.s
-
-Core/Src/stm32f1xx_it.obj: Core/Src/stm32f1xx_it.c.obj
-.PHONY : Core/Src/stm32f1xx_it.obj
-
-# target to build an object file
-Core/Src/stm32f1xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_it.c.obj
-.PHONY : Core/Src/stm32f1xx_it.c.obj
-
-Core/Src/stm32f1xx_it.i: Core/Src/stm32f1xx_it.c.i
-.PHONY : Core/Src/stm32f1xx_it.i
-
-# target to preprocess a source file
-Core/Src/stm32f1xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_it.c.i
-.PHONY : Core/Src/stm32f1xx_it.c.i
-
-Core/Src/stm32f1xx_it.s: Core/Src/stm32f1xx_it.c.s
-.PHONY : Core/Src/stm32f1xx_it.s
-
-# target to generate assembly for a file
-Core/Src/stm32f1xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/stm32f1xx_it.c.s
-.PHONY : Core/Src/stm32f1xx_it.c.s
-
-Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
-.PHONY : Core/Src/syscalls.obj
-
-# target to build an object file
-Core/Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/syscalls.c.obj
-.PHONY : Core/Src/syscalls.c.obj
-
-Core/Src/syscalls.i: Core/Src/syscalls.c.i
-.PHONY : Core/Src/syscalls.i
-
-# target to preprocess a source file
-Core/Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/syscalls.c.i
-.PHONY : Core/Src/syscalls.c.i
-
-Core/Src/syscalls.s: Core/Src/syscalls.c.s
-.PHONY : Core/Src/syscalls.s
-
-# target to generate assembly for a file
-Core/Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/syscalls.c.s
-.PHONY : Core/Src/syscalls.c.s
-
-Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
-.PHONY : Core/Src/sysmem.obj
-
-# target to build an object file
-Core/Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/sysmem.c.obj
-.PHONY : Core/Src/sysmem.c.obj
-
-Core/Src/sysmem.i: Core/Src/sysmem.c.i
-.PHONY : Core/Src/sysmem.i
-
-# target to preprocess a source file
-Core/Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/sysmem.c.i
-.PHONY : Core/Src/sysmem.c.i
-
-Core/Src/sysmem.s: Core/Src/sysmem.c.s
-.PHONY : Core/Src/sysmem.s
-
-# target to generate assembly for a file
-Core/Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/sysmem.c.s
-.PHONY : Core/Src/sysmem.c.s
-
-startup_stm32f103xb.obj: startup_stm32f103xb.s.obj
-.PHONY : startup_stm32f103xb.obj
-
-# target to build an object file
-startup_stm32f103xb.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/startup_stm32f103xb.s.obj
-.PHONY : startup_stm32f103xb.s.obj
+Core/Src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pressure_Sensor_SAUVC.dir/build.make CMakeFiles/Pressure_Sensor_SAUVC.dir/Core/Src/main.cpp.s
+.PHONY : Core/Src/main.cpp.s
 
 # Help Target
 help:
@@ -283,19 +179,6 @@ help:
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
-	@echo "... Core/Src/stm32f1xx_hal_msp.obj"
-	@echo "... Core/Src/stm32f1xx_hal_msp.i"
-	@echo "... Core/Src/stm32f1xx_hal_msp.s"
-	@echo "... Core/Src/stm32f1xx_it.obj"
-	@echo "... Core/Src/stm32f1xx_it.i"
-	@echo "... Core/Src/stm32f1xx_it.s"
-	@echo "... Core/Src/syscalls.obj"
-	@echo "... Core/Src/syscalls.i"
-	@echo "... Core/Src/syscalls.s"
-	@echo "... Core/Src/sysmem.obj"
-	@echo "... Core/Src/sysmem.i"
-	@echo "... Core/Src/sysmem.s"
-	@echo "... startup_stm32f103xb.obj"
 .PHONY : help
 
 
